@@ -22,6 +22,13 @@
   .job h3 { font-size:1.05rem; }
   .job .when { color:var(--muted); font-size:.9rem; }
   .job ul { margin:.5rem 0 0 1.25rem; }
+  .project { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; padding:1.25rem 1.5rem; margin-bottom:1rem; }
+  .project h3 { font-size:1.1rem; }
+  .project h3 a { text-decoration:none; }
+  .project h3 a:hover { text-decoration:underline; }
+  .project p { margin:.5rem 0; }
+  .tags { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.6rem; }
+  .tag { background:#e0f2fe; color:#0369a1; border-radius:999px; padding:.2rem .7rem; font-size:.8rem; font-weight:500; }
   footer { text-align:center; padding:2rem 1rem; color:var(--muted); font-size:.9rem; border-top:1px solid #e2e8f0; }
   a { color:var(--accent); }
 </style>
@@ -36,6 +43,20 @@
   <section>
     <h2>About</h2>
     <p>Junior Systems Administrator at McCann Industries with a B.S. in Cybersecurity (Western Governors University, 2025). I run day-to-day IT operations — endpoints, phones, tickets, vendor escalations — while building toward a career in security operations and AI agent security. Previously led 9 retail tech stores with 20+ direct reports, taking one of the worst-performing stores in a 137-store district to #1.</p>
+  </section>
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/jaypyai/ai-security-lab">🛡️ AI Security Lab</a></h3>
+      <p>A prompt-injection playground: chat with a deliberately vulnerable AI agent, break it three ways (direct injection, trojan-email indirect injection, defenses-on challenge), and feel what security controls change. Runs on a Raspberry Pi with Ollama.</p>
+      <div class="tags">
+        <span class="tag">AI Security</span>
+        <span class="tag">Prompt Injection</span>
+        <span class="tag">Python</span>
+        <span class="tag">Ollama</span>
+        <span class="tag">Raspberry Pi</span>
+      </div>
+    </div>
   </section>
   <section>
     <h2>Certifications</h2>
@@ -74,11 +95,8 @@
   <section>
     <h2>Contact</h2>
     <p>Email: <a href="mailto:michaeljaycareers@gmail.com">michaeljaycareers@gmail.com</a><br>
+    GitHub: <a href="https://github.com/jaypyai">github.com/jaypyai</a><br>
     Location: Westmont, IL — open to remote roles</p>
-  </section>
-  <section>
-    <h2>SMS Notifications</h2>
-    <p>Personal reminder messages (appointments, medication, household) are sent via SMS only to my wife and myself. Consent is given directly and personally — there is no public signup. To stop receiving messages at any time, reply <strong>STOP</strong>.</p>
   </section>
 </main>
 <footer>
